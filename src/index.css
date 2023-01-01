@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+  background-color: #eeeded;
+}
+
+ul {
+  text-align: left;
+  margin-left: 1em;
+}
