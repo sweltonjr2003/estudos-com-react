@@ -1,5 +1,6 @@
 import './App.css'
 import Botao from './components/eventos/Botao'
+import Formulario from './components/eventos/Formulario'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <h2>Testes com eventos</h2>
       <Botao />
+      <Formulario />
     </div>
   )
 }

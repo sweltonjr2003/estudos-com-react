@@ -1,3 +1,5 @@
+import styles from './Formulario.module.css'
+
 import Swal from "sweetalert2"
 
 const Botao = () => {
