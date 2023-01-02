@@ -12,13 +12,27 @@ const Formulario = () => {
         )
     }
 
+    const alerta = (e) => {
+        if(e.key === 'Enter') {
+            Swal.fire(
+                'Evento de alerta testado com sucesso!!',
+                '',
+                'success'
+            )
+        }
+        
+    }
+
     return (
-        <form onSubmit={login}>
-            <h1>Iniciar-Sessão</h1>
-            <input type="email" name="email" id="email" placeholder='Digitar o e-mail'/>
-            <input type="password" name="password" id="password" placeholder='Palavra-Passe' />
-            <button>Iniciar-Sessão</button>
-        </form>
+        <>
+            <form onSubmit={login}>
+                <h1>Iniciar-Sessão</h1>
+                <input type="email" name="email" id="email" placeholder='Digitar o e-mail'/>
+                <input onKeyPress={alerta} type="password" name="password" id="password" placeholder='Palavra-Passe' />
+                
+                <button>Iniciar-Sessão</button>
+            </form>
+        </>
     )
 }
 

@@ -1,6 +1,6 @@
 import './App.css'
-import Botao from './components/eventos/Botao'
-import Formulario from './components/eventos/Formulario'
+import Pai from './components/teste/Pai'
+
 
 function App() {
 
@@ -8,9 +8,12 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Testes com eventos</h2>
-      <Botao />
-      <Formulario />
+      <h1>Testes</h1>
+      <Pai>
+        <ul>
+          <li>A</li>
+        </ul>
+      </Pai>
     </div>
   )
 }
