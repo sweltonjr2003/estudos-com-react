@@ -1,6 +1,5 @@
 import './App.css'
-import Lista from './components/tipagemEvaloresPadraoComProps/Lista'
-
+import Botao from './components/eventos/Botao'
 
 function App() {
 
@@ -8,8 +7,8 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Trabalhar com Fragmentação</h2>
-      <Lista />
+      <h2>Testes com eventos</h2>
+      <Botao />
     </div>
   )
 }
