@@ -1,5 +1,5 @@
 import './App.css'
-import Pai from './components/teste/Pai'
+import Condicional from './components/renderizacaoCondicional/Condicional'
 
 
 function App() {
@@ -8,10 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Testes</h1>
-      <Pai>
-        Teste
-      </Pai>
+      <Condicional />
     </div>
   )
 }

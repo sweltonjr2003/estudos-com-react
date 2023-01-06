@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+input {
+    padding: .5em;
+}
+
+input:focus {
+    outline: .3em solid #932cf332;
+}
+
+button {
+    background-color: #932cf3;
+    color: white;
+    padding: .8em;
+    border: none;
+    border-radius: .2em;
+    cursor: pointer;
+    opacity: .9;
+}
+
+button:focus {
+    outline: .3em solid #932cf332;
+}
+
+button:hover {
+    opacity: 1;
+}
