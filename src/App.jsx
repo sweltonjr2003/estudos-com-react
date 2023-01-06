@@ -10,9 +10,7 @@ function App() {
     <div className="App">
       <h1>Testes</h1>
       <Pai>
-        <ul>
-          <li>A</li>
-        </ul>
+        Teste
       </Pai>
     </div>
   )

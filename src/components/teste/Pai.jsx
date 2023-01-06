@@ -1,8 +1,9 @@
 const Pai = (props) => {
   return (
-    <div>
+    <>
         {props.children}
-    </div>
+        <div>Div Teste</div>
+    </>
   )
 }
 
