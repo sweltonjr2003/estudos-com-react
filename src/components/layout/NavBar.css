@@ -1,0 +1,20 @@
+nav {
+    padding: .5em;
+    background-color: #1447a4;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: white;
+}

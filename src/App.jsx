@@ -1,19 +1,20 @@
+// import { Outlet } from 'react-router-dom'
 import './App.css'
+// import NavBar from './components/layout/NavBar'
 
-import { useState } from 'react'
-
-import OTeuNomePorFavor from './components/stateLift/OTeuNomePorFavor'
-import Saudacao from './components/stateLift/Saudacao'
+import Header from './components/styledComponents/header'
 
 
 function App() {
 
-  const [nome, setNome] = useState()
-
   return (
     <div className="App">
-      <OTeuNomePorFavor setNome={setNome} />
-      <Saudacao nome={nome} />
+      {/* <NavBar />
+      <Outlet /> */}
+      <Header/>
+      <header>
+        Teste
+      </header>
     </div>
   )
 }

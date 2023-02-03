@@ -8,6 +8,16 @@ body, html {
   background-color: #eeeded;
 }
 
+a {
+  color: #1b59cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1447a4;
+  text-decoration: underline;
+}
+
 ul {
   text-align: left;
   margin-left: 1em;
